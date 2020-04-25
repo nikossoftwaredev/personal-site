@@ -1,0 +1,50 @@
+ .projectDiv {
+     width: 30vw;
+     display: inline-table;
+     margin: 20px;
+     border: 1px solid black;
+     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+     -moz-box-shadow: 3px 3px 5px 6px #ccc;
+     /* Firefox 3.5 - 3.6 */
+     box-shadow: 3px 3px 5px 6px #ccc;
+     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+ }
+
+ .projectT {
+     background-color: #242424;
+     color: #b3f616;
+     padding: 15px 32px;
+     margin: 0;
+     text-align: center;
+
+ }
+
+ .projectD {
+     margin: 5px;
+ }
+
+ .icon {
+     vertical-align: middle;
+     width: 30px;
+     height: 30px;
+     padding: 0;
+ }
+
+ .navButton{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #a5a1a1;
+    margin: 5px;
+    text-decoration: none;
+ }
+
+ .navButton:hover{
+    color: whitesmoke;
+    
+ }
+ 

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+
+
+
+@font-face{
+    font-family: proxima-nova;
+    src:url('proxima-nova')
+}
+html {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.download{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;  
+ 
+
+}
+
+.navbar{
+    overflow: hidden;
+    position: relative;
+    background-color: #242424;
+    width: 100%;
+    display: table;   
+    
+}
+
+.buttons {    
+    color: whitesmoke;    
+    text-align: center;    
+    font-size: 30px;   
+    display: table-cell;  
+    vertical-align: middle;     
+    height: 100%;
+    width: 100%;   
+    right: 0;
+    top: 0;   
+    cursor: pointer; 
+   
+}
+
