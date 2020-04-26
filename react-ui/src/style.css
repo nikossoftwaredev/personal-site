@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+@font-face{
+    font-family: proxima-nova;
+    src:url('./Assets/proxima.otf')
+}
+
+html {
+    font-family: proxima-nova !important;
+}
+
+.avatar{
+    margin: 1vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    padding: 0 0 0 0;
+}
+
+.aboutText{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.download{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;  
+ 
+
+}
+
+.navbar{
+    overflow: hidden;
+    position: relative;
+    background-color: #242424;
+    width: 100%;
+    display: table;   
+    
+}
+
+.buttons {    
+    color: whitesmoke;    
+    text-align: center;    
+    font-size: 30px;   
+    display: table-cell;  
+    vertical-align: middle;     
+    height: 100%;
+    width: 100%;   
+    right: 10px;
+    top: 0;   
+    cursor: pointer; 
+   
+}
+
+.container{
+    width:40em;
+    height: 100%;
+    background-color: #b3f616;
+    display: inline-block;
+    position:fixed;
+    left: 50%;    
+    margin-left: -20em; /*set to a negative number 1/2 of your width*/
+}
+
+
+.projectDiv {
+    width: 29vw;
+    display: inline-table;
+    margin: 1vw 0vw 1vw 1vw;
+    border: 1px solid black;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.projectT {
+    background-color: #242424;
+    color: #b3f616;
+    padding: 15px 32px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.projectD {
+    margin: 20px;
+}
+
+.icon {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+
+
+
+.navButton{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #a5a1a1;
+    margin: 10px;
+    text-decoration: none;
+ }
+
+ .navButton:hover, nav:visited:hover{
+    color: whitesmoke !important;
+    
+ }
