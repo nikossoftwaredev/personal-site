@@ -34,6 +34,7 @@ if (!isDev && cluster.isMaster) {
   const app = express();
 
   app.use('/projects/dino', express.static(path.resolve(__dirname, './Projects/Dino.js')));
+  app.use('/projects/pi', express.static(path.resolve(__dirname, './Projects/PI')));
 
   // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../react-ui/build')));

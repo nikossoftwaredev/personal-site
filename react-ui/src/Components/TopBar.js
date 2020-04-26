@@ -58,7 +58,7 @@ class TopBar extends React.Component{
     render(){
         
         //Project Data should be fetched from my API 
-       this.info.fetching ? console.log("null"): console.log(this.info.projects);
+        this.info.fetching ? console.log("fetching") : console.log(this.info.projects);       
         const myProjects = this.info.fetching ? null : this.info.projects.map( data => <Project key = {data.id} project = {data}/>)
         
             

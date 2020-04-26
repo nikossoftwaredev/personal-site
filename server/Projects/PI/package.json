@@ -1,0 +1,12 @@
+{
+  "name": "calculating-pi",
+  "version": "1.0.0",
+  "description": "visualization of calculating pi",
+  "main": "sketch.js",
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "author": "Niko D",
+  "license": "ISC"
+}

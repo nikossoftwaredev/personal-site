@@ -27,6 +27,17 @@ html {
     margin: 10px;
 }
 
+.container{
+    width:40em;
+    height: 100%;
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    display: inline-block;
+    position:fixed;
+    left: 50%;    
+    margin-left: -20em; /*set to a negative number 1/2 of your width*/
+}
+
 
 
 .download{
@@ -71,15 +82,7 @@ html {
    
 }
 
-.container{
-    width:40em;
-    height: 100%;
-    background-color: #b3f616;
-    display: inline-block;
-    position:fixed;
-    left: 50%;    
-    margin-left: -20em; /*set to a negative number 1/2 of your width*/
-}
+
 
 
 .projectDiv {
@@ -112,7 +115,8 @@ html {
     vertical-align: middle;
     width: 30px;
     height: 30px;
-    padding: 0;
+
+    margin-left: 5px;
 }
 
 
