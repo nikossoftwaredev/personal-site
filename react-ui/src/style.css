@@ -45,10 +45,20 @@ html {
     border: none;
     color: white;
     padding: 15px 32px;
+    width: 34%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 1%;
+    margin-left: 33%;
+    cursor: pointer;
+    
+  
+}
+
+.download:hover{
+    background-color: chartreuse;
 }
 
 .logo {
