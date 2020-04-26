@@ -78,7 +78,7 @@ function preload() {
 function setup() {
     textFont(customFont);
     //createCanvas(1200, 400);
-    createCanvas(windowWidth, windowHeight - 100);
+    createCanvas(windowWidth -50, windowHeight - 100);
 
 
     angleMode(DEGREES);
