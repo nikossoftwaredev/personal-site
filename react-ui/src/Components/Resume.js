@@ -10,6 +10,7 @@ function Resume(){
                     <a href={require('../Assets/Resume.pdf')} download="Resume.pdf">
                         <button className = "download"> Download Resume </button>
                      </a>
+                     <h1> </h1>
            
             </div>
         </div>
