@@ -11,8 +11,10 @@
         "id": 2,
         "name": "Path finding Visualization",
         "description": "Developed a visualization of the Path Finding algorithm of Dijkstra using JavaScript and P5.js a JavaScript library for creative coding. ",
-        "git": "www.google.com",
+        "git": "https://github.com/nikossoftwaredev/shortest-path",
+        "ref": "/projects/dijkstra",
         "logo" : "logo-black.png"
+        
     },
     {
         "id": 3,

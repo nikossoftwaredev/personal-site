@@ -35,6 +35,7 @@ if (!isDev && cluster.isMaster) {
 
     app.use('/projects/dino', express.static(path.resolve(__dirname, './Projects/Dino.js')));
     app.use('/projects/pi', express.static(path.resolve(__dirname, './Projects/PI')));
+    app.use('/projects/dijkstra', express.static(path.resolve(__dirname, './Projects/Dijkstra')));
 
     app.get('/Portfolio', function(req, res) {
         res.sendFile(path.join(__dirname, '../react-ui/build/index.html'), function(err) {
