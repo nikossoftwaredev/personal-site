@@ -34,14 +34,15 @@ html {
 }
 
 .container{
-    width:40vw;
-    height: 90vh;    
+    width:50vw;
+        
     background-color: white;
     border: 1px solid black;
     display: inline-block;    
-    margin-left: 30vw;    
+    margin-left: 25vw;    
     margin-top:2vw;
     margin-bottom:1vh;
+    padding-bottom: 3vw;
     
 }
 

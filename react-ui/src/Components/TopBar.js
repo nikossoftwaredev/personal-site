@@ -2,6 +2,7 @@ import React from "react"
 import DisplayProjects from "./DisplayProjects"
 import About from "./About"
 import Resume from "./Resume"
+import Home from "./Home"
 
 
 import {
@@ -55,7 +56,7 @@ class TopBar extends React.Component{
             <Router>             
                 <div className = "navbar">
                     
-                    <div style = {{display: "inline-block"}}><Link onClick = {() => this.hightLight("ho")} to="/Home"><img className = "logo" src={require('../Assets/logo.png')} alt ="git"></img></Link></div>
+                    <div style = {{display: "inline-block"}}><Link onClick = {() => this.hightLight("ho")} to=""><img className = "logo" src={require('../Assets/logo.png')} alt ="git"></img></Link></div>
                     <div className = 'buttons'>                        
                         <Link className="navButton" onClick = {() => this.hightLight("po")} style = {{color: this.state.po? "#fff" : "#a5a1a1" }} to="/Portfolio">PORTFOLIO</Link>
                         <Link className="navButton" onClick = {() => this.hightLight("ab")} style = {{color: this.state.ab? "#fff" : "#a5a1a1" }} to="/About">ABOUT</Link>
@@ -63,7 +64,7 @@ class TopBar extends React.Component{
                     </div>          
                   </div>      
                 <div>
-                    <Switch>                        
+                    <Switch>                                               
                         <Route path="/Portfolio">
                             <DisplayProjects change = {this.hightLight} />                                                                   
                         </Route>
@@ -72,6 +73,9 @@ class TopBar extends React.Component{
                         </Route>
                         <Route path="/Resume">
                             <Resume change = {this.hightLight} />
+                        </Route> 
+                        <Route path="">
+                            <Home />                                                                   
                         </Route> 
                     </Switch>
                 </div>                          

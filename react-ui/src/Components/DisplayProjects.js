@@ -31,7 +31,7 @@ class DisplayProjects extends React.Component {
 
         return(
         <div style  ={{ marginBottom :"1vw" ,marginLeft : "4vw"}}>      
-            {this.state.fetching? <h1>API failed</h1>:myProjects}        
+            {this.state.fetching? <h1>Fetching data...</h1>:myProjects}        
         </div> 
         );
     }
