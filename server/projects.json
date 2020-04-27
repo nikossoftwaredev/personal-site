@@ -41,4 +41,10 @@
         "git": "https://github.com/nikossoftwaredev/calculatingPI",
         "ref": "/projects/pi",
         "logo" : "logo-black.png"
+    },
+    {
+        "id": 7,
+        "name": "Personal Website",
+        "description": "Developed this Website featuring some information about me and show-casing some of my Web Projects. The front-end framework is React.js and the back-end framework is Node Express. ",
+        "git": "https://github.com/nikossoftwaredev/personal-site"
     }]
