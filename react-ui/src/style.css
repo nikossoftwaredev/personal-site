@@ -98,6 +98,7 @@ html {
 
 .projectDiv {
     width: 29vw;
+    height: 18vw;
     display: inline-table;
     margin: 1vw 0vw 1vw 1vw;
     border: 1px solid black;
