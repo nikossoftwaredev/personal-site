@@ -39,7 +39,7 @@ html {
     background-color: white;
     border: 1px solid black;
     display: inline-block;    
-    margin-left: 20vw;    
+    margin-left: 30vw;    
     margin-top:2vw;
     margin-bottom:1vh;
     
@@ -48,24 +48,26 @@ html {
 
 
 .download{
-    background-color: #4CAF50; /* Green */
+    background-color: #242424;
     border: none;
-    color: white;
-    padding: 1vw 2vw;
-    width: 50%;
+    color:#b3f616;
+    padding: 1vw 1vw;
+    width: 30%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
-    margin-top: 1%;
-    margin-left: 25%;
+    font-family: proxima-nova;
+    margin-top: 1vw;
+    margin-left: 35%;
     cursor: pointer;
     
   
 }
 
 .download:hover{
-    background-color: chartreuse;
+    background-color: #272727;
+    
 }
 
 .logo {
