@@ -32,13 +32,14 @@ html {
     height : "100vh";
     background-color:"black" !important;
 }
+
 .container{
-    width:30vw;
+    width:40vw;
     height: 90vh;    
     background-color: white;
     border: 1px solid black;
     display: inline-block;    
-    margin-left: 35vw;    
+    margin-left: 20vw;    
     margin-top:2vw;
     margin-bottom:1vh;
     
