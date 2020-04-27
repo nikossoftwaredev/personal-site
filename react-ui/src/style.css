@@ -12,7 +12,7 @@ html {
 }
 
 .avatar{
-    margin: 1vw;
+    margin-right: 1vw;
     border-radius: 50%;
     border: 1px solid black;
     width: 10vw;
@@ -24,18 +24,24 @@ html {
 .aboutText{
     font-size: 1vw;
     padding: 1vw;
-    margin: 1vw;
+    margin: 0;
 }
 
+.backgroundDiv{
+    width:"100vw" ; 
+    height : "100vh";
+    background-color:"black" !important;
+}
 .container{
     width:30vw;
-    height: 100%;
-    background-color: #d3d3d3;
+    height: 90vh;    
+    background-color: white;
     border: 1px solid black;
-    display: inline-block;
-    position:fixed;
-    left: 50%;    
-    margin-left: -15vw; /*set to a negative number 1/2 of your width*/
+    display: inline-block;    
+    margin-left: 35vw;    
+    margin-top:2vw;
+    margin-bottom:1vh;
+    
 }
 
 
@@ -75,7 +81,8 @@ html {
     background-color: #242424;
     width: 100%;
     height: 1vh;
-    display: table;   
+    display: table;  
+     
     
 }
 
@@ -98,9 +105,9 @@ html {
 
 .projectDiv {
     width: 29vw;
-    height: 18vw;
+    height: 14vw;
     display: inline-table;
-    margin: 1vw 0vw 1vw 1vw;
+    margin: 2vw 0vw 0vw 1vw;
     border: 1px solid black;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -116,21 +123,21 @@ html {
     padding: 1vw 1vw;
     margin: 0;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1vw;
 
 }
 
 .projectD {
     margin: 1vw;
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 .icon {
     vertical-align: middle;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
 
-    margin-left: 1vw;
+    margin-left: 0.7vw;
 }
 
 

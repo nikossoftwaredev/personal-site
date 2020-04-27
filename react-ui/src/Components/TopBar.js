@@ -1,5 +1,5 @@
 import React from "react"
-import Project from "./Project"
+import DisplayProjects from "./DisplayProjects"
 import About from "./About"
 import Resume from "./Resume"
 
@@ -25,11 +25,7 @@ class TopBar extends React.Component{
             re : false
         };
 
-        this.info = {
-            fetching : true,
-            projects : null
-        };
-
+        
         this.hightLight = this.hightLight.bind(this); //bind the function to class in order to use this.state
     }
 
@@ -48,18 +44,9 @@ class TopBar extends React.Component{
         })
     }
 
-    async componentDidMount(){
-        const url = "/projects"
-        const response = await fetch(url);
-        const data = await response.json();
-        this.info = {fetching : false , projects : data }       
-    }
-
+    
     render(){
         
-        //Project Data should be fetched from my API 
-        this.info.fetching ? console.log("fetching") : console.log(this.info.projects);       
-        const myProjects = this.info.fetching ? null : this.info.projects.map( data => <Project key = {data.id} project = {data}/>)
         
             
         
@@ -78,16 +65,13 @@ class TopBar extends React.Component{
                 <div>
                     <Switch>                        
                         <Route path="/Portfolio">
-                            <div style  ={{ marginLeft : "4vw"}}>      
-                                {this.info.fetching? null:myProjects}        
-                            </div>                                        
+                            <DisplayProjects change = {this.hightLight} />                                                                   
                         </Route>
-                        <Route path="/About">    
-                            
-                            <About />
+                        <Route path="/About">                                
+                            <About change = {this.hightLight} />
                         </Route>
                         <Route path="/Resume">
-                            <Resume />
+                            <Resume change = {this.hightLight} />
                         </Route> 
                     </Switch>
                 </div>                          
