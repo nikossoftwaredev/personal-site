@@ -18,9 +18,9 @@
     },
     {
         "id": 3,
-        "name": "Python scraper",
-        "description": "A web scraper made in Python 3.7  for fetching information from my University’s e-secretary to get notified when the teacher releases the grade of the subject.",
-        "git": "www.google.com"
+        "name": "Auto clicker for Redbull's game",
+        "description": "Developed a python auto-clicker, in order to be at the top of the leaderboard in a redbull contest",
+        "git": "https://github.com/nikossoftwaredev/click-Bot"
     },
     {
         "id": 4,
